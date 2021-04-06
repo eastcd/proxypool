@@ -9,7 +9,16 @@
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - type: subscribe
   options:
+    url: https://youlianboshi.netlify.app/
+- type: subscribe
+  options:
     url: https://proxypoolsstest.herokuapp.com/clash
+- type: subscribe
+  options:
+    url: https://www.liesauer.net/yogurt/subscribe?ACCESS_TOKEN=DAYxR3mMaZAsaqUb
+- type: subscribe
+  options:
+    url: https://qiaomenzhuanfx.netlify.app/
 # 网页模糊抓取
 - type: webfuzz
   options:
@@ -17,6 +26,16 @@
 - type: webfuzz
   options:
     url: https://view.freev2ray.org/
+- type: webfuzz
+  options:
+    url: https://fanqiang.network/free-v2ray
+- type: webfuzz
+  options:
+    url: https://fanqiang.network/shadowsocks-servers
+ - type: webfuzz
+  options:
+    url: https://viencoding.com/ss-ssr-share  
+# tg频道    
 # tg频道抓取
 - type: tgchannel
   options:
