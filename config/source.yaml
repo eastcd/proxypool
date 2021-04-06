@@ -14,13 +14,54 @@
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
-
+- type: webfuzz
+  options:
+    url: https://view.freev2ray.org/
 # tg频道抓取
 - type: tgchannel
   options:
     channel: ssrList
     num: 200
-
+- type: tgchannel
+  options:
+    channel: SSRSUB
+    num: 200
+- type: tgchannel
+  options:
+    channel: ShadowsocksRssr
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssList
+    num: 200
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200
+- type: tgchannel
+  options:
+    channel: freeshadowsock
+    num: 200
+- type: tgchannel
+  options:
+    channel: socks5list
+    num: 200
+- type: tgchannel
+  options:
+    channel: ssrshares
+    num: 200
+- type: tgchannel
+  options:
+    channel: onessr
+    num: 200
+- type: tgchannel
+  options:
+    channel: baipiaojiedian
+    num: 200
+- type: tgchannel
+  options:
+    channel: ShareCentre
+    num: 200
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
