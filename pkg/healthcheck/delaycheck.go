@@ -101,7 +101,7 @@ func testDelay(p proxy.Proxy) (delay uint16, err error) {
 	}
 
 	sTime := time.Now()
-	err = HTTPHeadViaProxy(clashProxy, "http://www.gstatic.com/generate_204")
+	err = HTTPHeadViaProxy(clashProxy, "https://www.google.com")
 	if err != nil {
 		return 0, err
 	}
